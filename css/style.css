@@ -1,3 +1,9 @@
+
+html{
+ scroll-behavior: smooth;
+}
+
+
 header {
     padding: 0px 0 100px;
     height: 100vh;
