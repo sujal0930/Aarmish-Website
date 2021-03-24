@@ -1,13 +1,15 @@
-
-html{
- scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
+    border-radius: 0;
 }
-
 
 header {
     padding: 0px 0 100px;
     height: 100vh;
-    background-image: url(/img/wallpaper-0.jpg);
+    background-image: url(/img/header1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section {
@@ -20,9 +22,8 @@ section {
 
 .ml-auto {
     padding-left: 5%;
-    ;
 }
 
-.hero-text-box{
+.hero-text-box {
     margin-top: 50px;
 }
