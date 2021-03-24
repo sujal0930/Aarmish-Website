@@ -12,13 +12,6 @@ header {
     background-attachment: fixed;
 }
 
-section {
-    padding: 150px 0;
-}
-
-.transparent {
-    background-color: transparent;
-}
 
 .ml-auto {
     padding-left: 5%;
@@ -26,4 +19,27 @@ section {
 
 .hero-text-box {
     margin-top: 50px;
+}
+
+.box{
+    min-height: 55vh;  
+}
+
+.our-partners{
+    width: auto;
+    background:linear-gradient( rgba(255, 255, 255, 0.465),rgba(0, 0, 0, 0.63)),url(/img/v1.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+section {
+    margin: 50px 0;
+    min-height: 30vh;
+}
+
+.card-img-top {
+    /* width:20vh;
+    height: 30vw; */
+    object-fit: cover;
+    margin: 0 auto;
 }
