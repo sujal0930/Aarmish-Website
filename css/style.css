@@ -15,8 +15,12 @@ html {
     /* background-attachment: fixed; */
 }
 
-#grey{
-    background-color: rgb(245, 245, 245) !important;
+.container-compress{
+    padding: 0 10%;
+}
+
+.grey{
+    background-color: rgb(238, 238, 238) !important;
 }
 
 
@@ -32,11 +36,17 @@ html {
     min-height: 55vh;  
 }
 
+.carousel-inner {
+     height: 450px;
+    
+}
+
+
 .our-partners{
     width: auto;
-    background:linear-gradient( rgba(255, 255, 255, 0.465),rgba(0, 0, 0, 0.63)),url(/img/v1.jpg);
+    background:linear-gradient( rgba(255, 255, 255, 0.465),rgba(0, 0, 0, 0.63)),url(/img/7.jpg);
     background-size: cover;
-    background-position-y: bottom;
+    background-position-y: center;
 }
 
 section {
