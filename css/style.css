@@ -12,7 +12,7 @@ html {
     overflow: hidden;
     position: relative;
     background-attachment: scroll;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .container-compress {
@@ -141,4 +141,11 @@ section {
 
 .d-block w-100 {
     width: 70% !important;
+}
+
+.contact-front {
+    background: linear-gradient(rgba(156, 45, 132, 0.4), rgba(177, 104, 104, 0.6)), url("/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
 }
