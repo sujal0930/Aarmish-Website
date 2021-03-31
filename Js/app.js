@@ -45,23 +45,6 @@ $(document).ready(function () {
     }
   })
 
-  $(".owl-carousel").owlCarousel()
-
-  //get carousel instance data and store it in variable owl
-  var owl = $(".owl-carousel").data('owlCarousel');
-
-  //Public methods
-  owl.next()   // Go to next slide
-  owl.prev()   // Go to previous slide
-  owl.goTo(x)  // Go to x slide
-
-  owl.update() // Update Slide
-
-  owl.buildControlls()    // Build Controlls
-  owl.destroyControlls()  // Remove Controlls
-
-  owl.play() // Autoplay
-  owl.stop() // Autoplay Stop
 
 
 
