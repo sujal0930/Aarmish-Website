@@ -62,7 +62,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    animation: smoothScroll 1.3s  forwards;
+    animation: smoothScroll 1.3s forwards;
 }
 
 @keyframes smoothScroll {
@@ -74,18 +74,15 @@ section {
     }
 }
 
-
-
-  .hover {
+.hover {
     transition: all 0.25s ease-in;
-  }
-  
-  .hover:hover {
+}
+
+.hover:hover {
     margin-top: -10px;
     box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-
+    border-radius: 8px;
+}
 
 .unit-4 a {
     text-decoration: none;
@@ -162,6 +159,8 @@ section {
 }
 
 .transformed {
-    -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2); /* Chrome, Safari, Opera */
-    transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2); /* Standard syntax */
+    -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+    /* Chrome, Safari, Opera */
+    transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+    /* Standard syntax */
 }
