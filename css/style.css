@@ -36,7 +36,9 @@ html {
 }
 
 .carousel-inner {
-    height: 450px;
+    min-height:200px;
+    height:300px;
+    width: 100%;
 }
 
 .our-partners {
