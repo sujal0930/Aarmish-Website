@@ -6,13 +6,18 @@ html {
 .home-header {
     padding: 0px 0 100px;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/img/delivery-min.jpg);
+    background-color: #f48b29;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
     background-attachment: scroll;
+    color: #fbe6c2;
     /* background-attachment: fixed; */
+}
+
+.nav-item {
+    padding-left: 10px;
 }
 
 .container-compress {
@@ -47,7 +52,7 @@ html {
 }
 
 section {
-    margin: 50px 0;
+    margin-top: 50px;
     min-height: 30vh;
 }
 
