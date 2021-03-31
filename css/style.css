@@ -12,11 +12,11 @@ html {
     overflow: hidden;
     position: relative;
     background-attachment: scroll;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .container-compress {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .grey {
@@ -62,7 +62,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    animation: smoothScroll 1.3s steps();
+    animation: smoothScroll 1.3s  forwards;
 }
 
 @keyframes smoothScroll {
@@ -73,6 +73,19 @@ section {
         transform: translateY(0px);
     }
 }
+
+
+
+  .hover {
+    transition: all 0.25s ease-in;
+  }
+  
+  .hover:hover {
+    margin-top: -10px;
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+
 
 .unit-4 a {
     text-decoration: none;
@@ -142,8 +155,13 @@ section {
 }
 
 .contact-front {
-    background: linear-gradient(rgba(156, 45, 132, 0.4), rgba(177, 104, 104, 0.6)), url("/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+    background: linear-gradient(rgba(39, 38, 38, 0.4), rgba(24, 61, 92, 0.7)), url("/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.transformed {
+    -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2); /* Chrome, Safari, Opera */
+    transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2); /* Standard syntax */
 }
