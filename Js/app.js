@@ -16,3 +16,9 @@ document.addEventListener("DOMContentLoaded", function(){
 }); 
 
 
+function dropdownColor() {
+  document.getElementById('navbar-top').classList.toggle('bg-custom');
+}
+
+
+
