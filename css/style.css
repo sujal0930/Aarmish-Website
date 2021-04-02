@@ -1,259 +1,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;400&family=Nunito:wght@300;400&family=Open+Sans:wght@300;400&family=Poppins:wght@100;300;400&display=swap');
-
 @font-face {
-  font-family: fa;
-  src: url(/css/fonts/TCCM____.TTF);
+    font-family: fa;
+    src: url(/css/fonts/TCCM____.TTF);
 }
 
 @font-face {
-  font-family: gc;
-  src: url(/css/fonts/gcliff.ttf);
+    font-family: gc;
+    src: url(/css/fonts/gcliff.ttf);
 }
-
 
 
 /* ----------------------- COLOR PALLETE-------------------------------------- */
 
 :root {
-  --MidnightBlue: #0e0e52;
-  --NavyBlue: #150578;
-  --BeauBlue: #cce1f5;
-  --Coral: #ff825c;
-  --Beige: #f9f7dc;
+    --MidnightBlue: #0e0e52;
+    --NavyBlue: #150578;
+    --BeauBlue: #cce1f5;
+    --Coral: #ff825c;
+    --Beige: #f9f7dc;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
-#header{
+#header {
     color: var(--BeauBlue);
 }
 
+#compname {
+    color: #ff825c;
+}
+
 html {
-  scroll-behavior: smooth;
-  border-radius: 0;
-  
+    scroll-behavior: smooth;
+    border-radius: 0;
 }
 
 #hero-text-h2 {
-  font-family: gc;
-  font-size: 90px;
+    font-family: gc;
+    font-size: 90px;
 }
 
 #mainNav {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 /* ------------------------------------------------------------------------------------------*/
 
-.logo-text{
-  font-weight: 700;
-  font-size: xx-large;
+.logo-text {
+    font-weight: 700;
+    font-size: xx-large;
 }
+
 
 /* ------------------------------------------------------------------------------------------*/
 
 .home-header {
-  padding: 0px 0 100px;
-  height: 100vh;
-  background-color: var(--MidnightBlue);
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-  background-attachment: scroll;
-  color: #fbe6c2;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* background-attachment: fixed; */
+    padding: 0px 0 100px;
+    height: 100vh;
+    /* background-color: rgba(206, 73, 24, 0.932); */
+    background-color: rgba(25, 25, 112, 0.884);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-attachment: scroll;
+    color: #fbe6c2;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* background-attachment: fixed; */
 }
 
 .nav-item {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .container-compress {
-  padding: 0 5%;
+    padding: 0 5%;
 }
 
 .grey {
-  background-color: rgb(238, 238, 238) !important;
+    background-color: rgb(238, 238, 238) !important;
 }
 
 .ml-auto {
-  padding-left: 5%;
+    padding-left: 5%;
 }
 
 .hero-text-box {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .box {
-  min-height: 55vh;
+    min-height: 55vh;
 }
 
 .carousel-inner {
-  height: 450px;
+    height: 450px;
 }
 
 .our-partners {
-  width: auto;
-  background: linear-gradient(rgba(255, 255, 255, 0.465), rgba(0, 0, 0, 0.63)),
-    url(/img/7.jpg);
-  background-size: cover;
-  background-position-y: center;
+    width: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.465), rgba(0, 0, 0, 0.63)), url(/img/7.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 section {
-  margin-top: 50px;
-  min-height: 30vh;
+    margin-top: 50px;
+    min-height: 30vh;
 }
 
 .bg-custom {
-  background-color: rgb(33, 37, 41);
+    background-color: rgb(33, 37, 41);
 }
 
 .card-img-top {
-  /* width:20vh;
+    /* width:20vh;
     height: 30vw; */
-  object-fit: cover;
-  margin: 0 auto;
+    object-fit: cover;
+    margin: 0 auto;
 }
+
 
 /* --------------------------- NAV ---------------------------------- */
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  animation: smoothScroll 1.5s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: smoothScroll 0.7s forwards;
 }
 
 @keyframes smoothScroll {
-  0%,
-  30% {
-    transform: translateY(0px);
-    background-color: rgba(0, 0, 128, 0.233);
-    
-    padding-top: 15px;
-  }
-  30%,60%{
-    background-color: rgba(25, 25, 112, 0.555);
-  }
-  100% {
-    transform: translateY(0px);
-    background-color: var(--MidnightBlue);
-    box-shadow: 0 0 10px 0 #00000077;
-  }
+    0%,
+    30% {
+        transform: translateY(0px);
+        background-color: rgba(0, 0, 128, 0.233);
+        padding-top: 15px;
+    }
+    30%,
+    60% {
+        background-color: rgba(25, 25, 112, 0.555);
+    }
+    100% {
+        transform: translateY(0px);
+        background-color: var(--MidnightBlue);
+        box-shadow: 0 0 10px 0 #00000077;
+    }
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
+
 
 /* ---------------------------------------------------------------------------- */
 
 .hover {
-  transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
 }
 
 .hover:hover {
-  margin-top: -10px;
-  box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+    margin-top: -10px;
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 .unit-4 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .brands {
-  width: 100%;
-  padding-bottom: 0px;
-  padding-top: 60px;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 60px;
 }
 
 .brands_slider_container {
-  height: 130px;
-  border: none;
-  padding-left: 97px;
-  padding-right: 97px;
-  background: #fff;
+    height: 130px;
+    border: none;
+    padding-left: 97px;
+    padding-right: 97px;
+    background: #fff;
 }
 
 .brands_slider {
-  height: 100%;
+    height: 100%;
 }
 
 .brands_item {
-  height: 100%;
+    height: 100%;
 }
 
 .brands_item img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .brands_nav {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  padding: 5px;
-  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer;
 }
 
 .brands_nav i {
-  color: #e5e5e5;
-  -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
-  transition: all 200ms ease;
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
 .brands_nav:hover i {
-  color: #676767;
+    color: #676767;
 }
 
 .brands_prev {
-  left: 40px;
+    left: 40px;
 }
 
 .brands_next {
-  right: 40px;
+    right: 40px;
 }
 
 .d-block w-100 {
-  width: 70% !important;
+    width: 70% !important;
 }
 
 .contact-front {
-  background: linear-gradient(rgba(39, 38, 38, 0.4), rgba(24, 61, 92, 0.7)),
-    url("/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
+    background: linear-gradient(rgba(39, 38, 38, 0.4), rgba(24, 61, 92, 0.7)), url("/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .transformed {
-  -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg)
-    scale3d(1, 1, 2);
-  /* Chrome, Safari, Opera */
-  transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
-  /* Standard syntax */
+    -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+    /* Chrome, Safari, Opera */
+    transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+    /* Standard syntax */
 }
+
 
 /* -----------------------SERVICES----------------- */
 
-#services{
-  background-color: var(--BeauBlue);
+#services {
+    background-color: var(--BeauBlue);
 }
 
 
 /* ----------------------------Footer------------------------------*/
 
-footer{
-  background-color: var(--Beige);
-  
+footer {
+    background-color: var(--Beige);
+    font-family: gc;
+}
+
+footer a {
+    color: coral;
+}
+
+footer a :hover {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    height: inherit;
 }
