@@ -3,7 +3,39 @@ body {
     background-color: rgb(252, 252, 252);
     line-height: 1.9;
     color: #8c8c8c;
+    font-size: large;
+    
 }
+
+@font-face {
+    font-family: gc;
+    src: url(/css/fonts/gcliff.ttf);
+}
+
+
+/* ----------------------- COLOR PALLETE-------------------------------------- */
+
+:root {
+    --MidnightBlue: #0e0e52;
+    --NavyBlue: #150578;
+    --BeauBlue: #cce1f5;
+    --Coral: #ff825c;
+    --Beige: #f9f7dc;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+.nav-blue{
+    background-color: #0e0e52;
+}
+
+.bg-custom {
+    background-color: rgb(33, 37, 41);
+}
+
+/* -------------------------------------------------------------------------------- */
+
 
 h1,
 h2,
@@ -19,18 +51,27 @@ h6,
 .h6 {
     font-family: "Roboto", sans-serif;
     color: rgb(255, 255, 255);
+    font-size: larger;
 }
+
+
+
 
 a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
+    color: var(--Coral);
 }
 
 a,
 a:hover {
     text-decoration: none !important;
 }
+
+
+/* -------------------------------------------------------------------------------- */
+
 
 .text-black {
     color: #000;
@@ -45,9 +86,15 @@ a:hover {
     font-weight: 900;
 }
 
+
+/* -------------------------------------------------------------------------------- */
+
+
 .form-control {
     border: none;
     background: #f3f3f3;
+    font-size: larger;
+
 }
 
 .form-control:active,
@@ -77,6 +124,10 @@ a:hover {
     border-color: #000;
 }
 
+
+/* -------------------------------------------------------------------------------- */
+
+
 .btn {
     border: none;
     border-radius: 4px !important;
@@ -99,6 +150,10 @@ a:hover {
     box-shadow: none;
 }
 
+
+/* -------------------------------------------------------------------------------- */
+
+
 .box {
     padding: 40px;
     background: #fff;
@@ -111,6 +166,10 @@ a:hover {
     margin-bottom: 30px;
     text-align: center;
 }
+
+
+/* -------------------------------------------------------------------------------- */
+
 
 label.error {
     font-size: 12px;
@@ -144,4 +203,54 @@ label.error {
     font-weight: bold;
     font-size: 12px;
     color: #000;
+
 }
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+footer {
+    background-color:rgba(22, 22, 22, 0.884);
+    font-family: gc;
+    padding: 5vh 0;
+}
+
+footer a {
+    color: coral;
+}
+
+footer a :hover {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    height: inherit;
+}
+
+/* -----------------------------FONT AREA-------------------------------------- */
+
+@media screen and (min-width: 601px) {
+  
+    #hero-svg{
+      height: fit-content;
+    }
+  
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    /* *:not(h1,h2,h3,h4,h5,h6){
+      font-size: 20px;
+    } */
+
+    #hero-svg{
+        height: fit-content;
+    }
+    .form-control {
+        font-size:large;
+    }
+  }

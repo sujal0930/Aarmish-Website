@@ -1,18 +1,108 @@
-.textc {
-    height: 300px !important;
+@font-face {
+    font-family: gc;
+    src: url(/css/fonts/gcliff.ttf);
 }
 
-@media (max-width:991.98px) {
-    .padding {
-        padding: 1.5rem
+
+
+/* ----------------------- COLOR PALLETE-------------------------------------- */
+
+:root {
+    --MidnightBlue: #0e0e52;
+    --NavyBlue: #150578;
+    --BeauBlue: #cce1f5;
+    --Coral: #ff825c;
+    --Beige: #f9f7dc;
+}
+
+
+/* -------------------------------------------------------------------- */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(252, 252, 252);
+    line-height: 1.9;
+    color: #8c8c8c;
+    font-size: large;
+    
+}
+
+
+
+
+/* ------------------------------------------------------------------ */
+
+.nav-blue{
+    background-color: #0e0e52;
+}
+
+.bg-custom {
+    background-color: rgb(33, 37, 41);
+}
+
+/* ------------------------------------------------------------------------ */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: smoothScroll 0.5s forwards;
+}
+
+@keyframes smoothScroll {
+    0%,
+    30% {
+        transform: translateY(0px);
+        background-color: rgba(0, 0, 128, 0.233);
+        padding-top: 15px;
+    }
+    /* 30%,
+    60% {
+        background-color: rgba(25, 25, 112, 0.555);
+    } */
+    100% {
+        transform: translateY(0px);
+        background-color: var(--MidnightBlue);
+        box-shadow: 0 0 10px 0 #00000077;
     }
 }
 
-@media (max-width:767.98px) {
-    .padding {
-        padding: 1rem
-    }
+
+/* ----------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: larger;
 }
+
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: var(--Coral);
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+    color: var(--BeauBlue);
+}
+
+/* -------------------------------------------------------------------------- */
+
 
 .padding {
     padding: 5rem
@@ -43,11 +133,11 @@
     padding: 1.25rem
 }
 
-p {
-    font-size: 0.875rem;
-    margin-bottom: .5rem;
-    line-height: 1.5rem
+.textc {
+    height: 300px !important;
 }
+
+
 
 h4 {
     line-height: .2 !important
@@ -79,3 +169,42 @@ h4 {
 .slick-slide {
     margin: 10px
 }
+
+/* ------------------------------------------------------------------------ */
+
+footer {
+    background-color:rgba(22, 22, 22, 0.884);
+    font-family: gc;
+    padding: 5vh 0;
+    color: var(--BeauBlue);
+}
+
+footer a {
+    color: coral;
+}
+
+footer a :hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+

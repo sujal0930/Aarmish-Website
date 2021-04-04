@@ -9,6 +9,20 @@
     src: url(/css/fonts/gcliff.ttf);
 }
 
+/* -----------------------------FONT AREA-------------------------------------- */
+
+@media screen and (max-width: 601px) {
+    body{
+        font-size: small;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    
+  }
+
+  
 
 /* ----------------------- COLOR PALLETE-------------------------------------- */
 
@@ -34,11 +48,12 @@
 html {
     scroll-behavior: smooth;
     border-radius: 0;
+    font-size: larger;
 }
 
 #hero-text-h2 {
     font-family: gc;
-    font-size: 90px;
+    /* font-size: 100px; */
 }
 
 #mainNav {
@@ -50,7 +65,13 @@ html {
 
 .logo-text {
     font-weight: 700;
-    font-size: xx-large;
+    /* font-size:; */
+}
+
+
+.svg-home-d{
+    height: 600px;
+    width: 600px;
 }
 
 
@@ -58,7 +79,7 @@ html {
 
 .home-header {
     padding: 0px 0 100px;
-    height: 100vh;
+    height: 93vh;
     /* background-color: rgba(206, 73, 24, 0.932); */
     background-color: rgba(25, 25, 112, 0.884);
     background-size: cover;
@@ -75,9 +96,6 @@ html {
     padding-left: 10px;
 }
 
-.container-compress {
-    padding: 0 5%;
-}
 
 .grey {
     background-color: rgb(238, 238, 238) !important;
@@ -174,7 +192,6 @@ section {
 .brands {
     width: 100%;
     padding-bottom: 0px;
-    padding-top: 60px;
 }
 
 .brands_slider_container {
@@ -259,8 +276,9 @@ section {
 /* ----------------------------Footer------------------------------*/
 
 footer {
-    background-color: var(--Beige);
+    background-color:rgba(22, 22, 22, 0.884);
     font-family: gc;
+    padding: 5vh 0;
 }
 
 footer a {
@@ -275,3 +293,39 @@ footer a :hover {
 input {
     height: inherit;
 }
+
+
+/* ------------------MEDIA QUERIES------------------------- */
+
+@media screen and (max-width: 500px) {
+    .carousel-inner{
+        height: fit-content;
+    }
+
+    .home-header{
+        height: max-content;
+    }
+
+    .logo-text{
+        font-size: x-large;
+    }
+
+    .hero-text-box{
+        margin-top: 0;
+    }
+
+
+
+  }
+
+
+  
+@media (max-width: 600px) {
+ 
+    .home-header{
+        height: max-content;
+    }
+
+
+  }
+

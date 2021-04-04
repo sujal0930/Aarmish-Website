@@ -24,7 +24,7 @@
     <header class="align-self-center home-header" id="header">
         <!-- Navigation -->
         <div class="container-fluid" id="navbar-top">
-            <nav class="navbar navbar-expand-lg navbar-dark pt-2 navbar-nav navbar-inverse navbar-fixed-top" id="mainNav">
+            <nav class="navbar navbar-expand-lg navbar-dark pt-2 navbar-nav navbar-inverse navbar-fixed-top" id="mainNav" style="font-size: x-large;">
                 <div class="container  nav-bar">
                     <a class="navbar-brand js-scroll-trigger mt-2 " href="Index.html">
                         <h3 class="logo-text" id="compname">Aarmish</h3>
@@ -33,7 +33,7 @@
                         <span class="navbar-toggler-icon" onclick="dropdownColor()"></span>
                     </button>
                     <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarResponsive">
-                        <ul class="navbar-nav  ml-auto h4">
+                        <ul class="navbar-nav  ml-auto ">
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger " href="#">Home</a>
                             </li>
@@ -54,24 +54,24 @@
 
 
         <div class="container hero-text-box ">
-            <div class="row hero-text ">
-                <div class="col-12 col-lg-7 mt-5 container text-left ">
-                    <h1 class="" id="hero-text-h2">A BETTER BRAND MANAGEMENT SOLUTION</h1>
-                    <h2 class="" style="font-size: larger;">
+            <div class="row hero-text">
+                <div class="col-12 col-lg-7 mt-4 align-self-center container text-left ">
+                    <h1 class="display-3" id="hero-text-1">A BETTER BRAND MANAGEMENT SOLUTION</h1>
+                    <h5 class="h3" id="hero-text-2">
 
                         A to Z amazon specialists
-                    </h2>
+                    </h5>
                 </div>
-                <div class=" col-md-5 d-none d-lg-block">
+                <div class="col-lg-5 d-none d-lg-block " id="svg-home-con">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="./json/header.json" background="transparent" speed="1" style="width: 550px; height: 550px;" loop autoplay></lottie-player>
+                    <lottie-player src="./json/header.json" background="transparent" speed="1" id="svg-home" class="svg-home-d" loop autoplay></lottie-player>
                 </div>
             </div>
         </div>
     </header>
 
     <section id="about" class="">
-        <div class="container ">
+        <div class="container">
             <div class="col-12 col-md-8 mx-auto mb-5 ">
                 <h3 class="display-5 text-center fw-bold ">Devoted to</h3>
                 <h2 class="text-center fw-lighter ">GROWING YOUR BUSINESS</h2>
@@ -80,7 +80,7 @@
                 </p>
             </div>
             <!-- cardssss----------------------------- -->
-            <div class="container-compress ">
+            <div class="">
 
                 <div class="card-group row mt-5 ">
 
@@ -227,13 +227,13 @@
         </div>
     </section>
     <!-- icon carousel-------------- -->
-    <section>
+    
 
         <div class="brands">
             <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="brands_slider_container">
+                <div class="row mt-5">
+                    <div class="col ">
+                        <div class="brands_slider_container ">
                             <div class="owl-carousel owl-theme brands_slider">
                                 <div class="owl-item">
                                     <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_1.jpg" alt=""></div>
@@ -266,24 +266,27 @@
                 </div>
             </div>
         </div>
-    </section>
+    
 
 
 
 
     <!-- icon carousel-------------- -->
-    <div class="bg-white py-5" id="1" style="padding: 0 !important;">
-        <div class="container py-5 ">
-            <div class="row align-items-center mb-5 ">
-                <div class="col-lg-6 order-2 order-lg-1 "><i class="fa fa-bar-chart fa-2x mb-3 text-primary "></i>
-                    <h2 class="font-weight-light ">About Us</h2>
-                    <p class="font-italic text-muted mb-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="# " class="btn btn-light px-5 rounded-pill shadow-sm ">Learn More</a>
+    <section class="">
+        <div class="py-5" id="1" style="padding: 0 !important;">
+            <div class="container py-5 " >
+                <div class="row align-items-center mb-5 ">
+                    <div class="col-lg-6 order-2 order-lg-1 "><i class="fa fa-bar-chart fa-2x mb-3 text-primary "></i>
+                        <h2 class="font-weight-light ">About Us</h2>
+                        <p class="font-italic text-muted mb-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="# " class="btn btn-light px-5 rounded-pill shadow-sm ">Learn More</a>
+                    </div>
+                    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2 "><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg " alt=" " class="img-fluid mb-4 mb-lg-0 "></div>
                 </div>
-                <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2 "><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg " alt=" " class="img-fluid mb-4 mb-lg-0 "></div>
+    
             </div>
-
         </div>
-    </div>
+    </section>
+   
 
 
     <section id="contact " class="grey contact-front ">
@@ -303,23 +306,24 @@
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark ">
-        <div style="background-color: #2b71c2 ">
-            <div class="container ">
-                <!-- Grid row-->
-                <div class="row py-4 d-flex align-items-center ">
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
-                        <h6 class="mb-0 ">Some Useful links</h6>
-                    </div>
-                    <!-- Grid column -->
+    <div style="background-color: #f9f7dc">
+        <div class="container ">
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center ">
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
+                    <h6 class="mb-0 ">Some Useful links</h6>
                 </div>
-                <!-- Grid row-->
+                <!-- Grid column -->
             </div>
+            <!-- Grid row-->
         </div>
+    </div>
+    <footer class="page-footer font-small unique-color-dark ">
+      
 
         <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5 ">
+        <div class="container text-center text-md-left mt-5 " style="color:#cce1f5;">
             <!-- Grid row -->
             <div class="row mt-3 ">
                 <!-- Grid column -->
@@ -395,7 +399,7 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 ">
+        <div class="footer-copyright text-white text-center py-3 ">
             © 2021 Copyright:
             <a href="# ">Aarmish Enterprises Ltd /</a>
             <a href="# ">Privacy Policies</a>

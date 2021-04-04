@@ -13,31 +13,30 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-
 </head>
 
 <body>
-    <header class="bg-primary text-white align-self-center home-header">
+    <header class="text-white align-self-center home-header">
         <!-- Navigation -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark pt-2 navbar-nav navbar-inverse navbar-fixed-top" id="mainNav">
-                <div class="container">
-                    <a class="navbar-brand js-scroll-trigger mt-2 text-white" href="Index.html">
-                        <h3>Aarmish</h3>
+        <div class="container-fluid nav-blue" id="navbar-top">
+            <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3 navbar-nav navbar-inverse navbar-fixed-top" id="mainNav" style="font-size: x-large;">
+                <div class="container  nav-bar">
+                    <a class="navbar-brand js-scroll-trigger mt-2 " href="Index.html">
+                        <h3 class="logo-text" id="compname" style="color: coral;">Aarmish</h3>
                     </a>
                     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <span class="navbar-toggler-icon" onclick="dropdownColor()"></span>
+                    </button>
                     <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarResponsive">
-                        <ul class="navbar-nav  ml-auto h5">
+                        <ul class="navbar-nav  ml-auto ">
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger text-white" href="#about">About</a>
+                                <a class="nav-link js-scroll-trigger " href="Index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger text-white" href="#services">Services</a>
+                                <a class="nav-link js-scroll-trigger " href="services.html">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger text-white" href="contact.html">Contact</a>
+                                <a class="nav-link js-scroll-trigger " href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -46,50 +45,52 @@
         </div>
 
 
+
+
     </header>
 
     <div class="content">
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-10">
+                <div class="col-md-12">
 
 
-                    <div class="row justify-content-center ">
-                        <div class="col-md-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
 
                             <h3 class="heading mb-4" style="color: black;">Let's talk about everything!</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?
                             </p>
 
-                            <p style="margin-left: 0;">
+                            <p  style="margin-left: 0;" id="hero-svg">
                                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                                <lottie-player src="./json/contactus.json" background="transparent" speed="1" style="width: 500px; height: 500px; " loop autoplay></lottie-player>
+                                <lottie-player src="./json/contactus.json" background="transparent" speed="1"  loop autoplay></lottie-player>
                             </p>
 
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5 align-self-center">
 
                             <form class="mb-5" method="post" id="contactForm" name="contactForm">
                                 <div class="row">
                                     <div class="col-md-12 form-group m-2">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                                        <input type="text" class="form-control shadow-sm" name="name" id="name" placeholder="Your name">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 form-group m-2">
-                                        <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                                        <input type="text" class="form-control shadow-sm" name="email" id="email" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 form-group m-2">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control shadow-sm" name="subject" id="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="row ">
                                     <div class="col-md-12  form-group m-2">
-                                        <textarea class="form-control shadow-lg" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                                        <textarea class="form-control shadow-sm" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -115,20 +116,21 @@
 
 
     <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark">
-        <div style="background-color: #2b71c2">
-            <div class="container">
-                <!-- Grid row-->
-                <div class="row py-4 d-flex align-items-center">
-                    <!-- Grid column -->
-                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0">Some Useful links</h6>
-                    </div>
-                    <!-- Grid column -->
+    <div style="background-color: #150578">
+        <div class="container">
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0">Some Useful links</h6>
                 </div>
-                <!-- Grid row-->
+                <!-- Grid column -->
             </div>
+            <!-- Grid row-->
         </div>
+    </div>
+    <footer class="page-footer font-small unique-color-dark">
+    
 
         <!-- Footer Links -->
         <div class="container text-center text-md-left mt-5">
@@ -206,8 +208,8 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">
-            © 2021 Copyright:
+        <div class="footer-copyright  text-center py-3" >
+             <p class="text-white">© 2021 Copyright:</p>
             <a href="#">Aarmish Enterprises Ltd /</a>
             <a href="#">Privacy Policies</a>
         </div>
@@ -220,6 +222,7 @@
     <script src="./Js/popper.min.js"></script>
     <script src="./Js/jquery.slim.min.js"></script>
     <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/customers.js"></script>
 
 </body>
 

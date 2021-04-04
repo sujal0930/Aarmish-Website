@@ -35,3 +35,8 @@ $(document).ready(function() {
         ]
     });
 });
+
+function dropdownColor() {
+    document.getElementById('navbar-top').classList.toggle('bg-custom');
+    document.getElementById('navbar-top').classList.toggle('.nav-blue');
+}
