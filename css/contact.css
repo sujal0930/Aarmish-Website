@@ -5,6 +5,10 @@ body {
     color: #8c8c8c;
 }
 
+.home-header {
+    background-color: rgba(25, 25, 112, 0.884) !important;
+}
+
 h1,
 h2,
 h3,

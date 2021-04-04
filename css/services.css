@@ -18,6 +18,10 @@
     padding: 5rem
 }
 
+.home-header {
+    background-color: rgba(25, 25, 112, 0.884) !important;
+}
+
 .card {
     position: relative;
     display: flex;
