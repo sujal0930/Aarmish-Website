@@ -20,55 +20,58 @@
 </head>
 
 <body>
-    <div class="container-fluid nav-blue" id="navbar-top">
-        <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3 navbar-nav navbar-inverse navbar-fixed-top" id="mainNav" style="font-size: x-large;">
-            <div class="container  nav-bar">
-                <a class="navbar-brand js-scroll-trigger mt-2 " href="Index.html">
-                    <h3 class="logo-text" id="compname" style="color: coral;">Aarmish</h3>
-                </a>
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" onclick="dropdownColor()"></span>
-                </button>
-                <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarResponsive">
-                    <ul class="navbar-nav  ml-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger " href="Index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger " href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger " href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+
     <header class="text-white  align-self-center home-header" style="background-color: rgb(52,52,129);">
         <!-- Navigation -->
+        
+        <div class=" container-fluid " id="navbar-top">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-nav navbar-inverse navbar-fixed-top" id="mainNav">
+                <div class="container  nav-bar">
+                    <a class="navbar-brand js-scroll-trigger mt-2 " href="Index.html">
+                        <h3 class="logo-text" id="compname" style="color: coral;">Aarmish</h3>
+                    </a>
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" onclick="dropdownColor()"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarResponsive">
+                        <ul class="navbar-nav  ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger " href="Index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger " href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger " href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
 
         <div class="container hero-text-box">
             <div class="row hero-text">
-                <div class="col-12 col-sm-7 mt-5 container text-left">
+                <div class="col-12 col-md-7 col-lg-7 mt-5  align-self-center text-left">
                     <h1 class="display-1"> Let us Serve You!</h1>
                     <h2 class="lead display-5">
                         We do what it takes to strenthen your brand.
                     </h2>
                 </div>
-                <div class="col-auto col-sm-5">
+                <div class=" col-md-5  d-none d-md-block align-self-center">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="./json/service2.json" background="transparent" speed="1" style="width: 500px; height: 500px; " loop autoplay></lottie-player>
+                    <lottie-player src="./json/service2.json" background="transparent" speed="1" style="height: inherit;" loop autoplay></lottie-player>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="bg-white py-5">
+    <div class="py-5 " style="background-color: #cce1f5">
         <div class="container py-5">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <h2 class="font-weight-light">Lorem ipsum dolor sit amet</h2>
+                    <h2 class="">Lorem ipsum dolor sit amet</h2>
                     <p class="font-italic text-muted mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ex tempora dignissimos aut recusandae quia delectus possimus enim rem quibusdam quo ad architecto illo modi eaque, esse optio! Numquam, reiciendis.</p>
                 </div>
                 <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="./img/service1.jpg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
@@ -79,7 +82,7 @@
                 <div class="col-lg-5 px-5 mx-auto"><img src="img/se3rvice3.jpg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
                 <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
                     <h2 class="font-weight-light">Lorem ipsum dolor sit amet</h2>
-                    <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+                    <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" class="btn btn-light px-5 rounded-pill shadow-lg">Learn More</a>
                 </div>
             </div>
         </div>
@@ -96,7 +99,7 @@
 
 
     <!-- Footer -->
-    <div style="background-color: #150578">
+    <div style="background-color: #150578; color: #cce1f5;">
         <div class="container">
             <!-- Grid row-->
             <div class="row py-4 d-flex align-items-center">

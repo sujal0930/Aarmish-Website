@@ -11,18 +11,31 @@
 
 /* -----------------------------FONT AREA-------------------------------------- */
 
-@media screen and (max-width: 601px) {
+/* @media screen and (max-width: 601px) {
     body{
         font-size: small;
     }
-  }
+  } */
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     
+  } */
+
+  a{
+      text-decoration: none;
+  }
+  
+  .navbar-nav{
+      font-size: large;
   }
 
-  
+  .logo-text{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+
 
 /* ----------------------- COLOR PALLETE-------------------------------------- */
 
@@ -34,112 +47,18 @@
     --Beige: #f9f7dc;
 }
 
-
-/* -------------------------------------------------------------------------------- */
-
-#header {
-    color: var(--BeauBlue);
-}
-
-#compname {
-    color: #ff825c;
-}
+/* ---------------------------------------HTML TAGS-------------------------- */
 
 html {
     scroll-behavior: smooth;
     border-radius: 0;
-    font-size: larger;
-}
-
-#hero-text-h2 {
-    font-family: gc;
-    /* font-size: 100px; */
-}
-
-#mainNav {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/* ------------------------------------------------------------------------------------------*/
-
-.logo-text {
-    font-weight: 700;
-    /* font-size:; */
-}
-
-
-.svg-home-d{
-    height: 600px;
-    width: 600px;
-}
-
-
-/* ------------------------------------------------------------------------------------------*/
-
-.home-header {
-    padding: 0px 0 100px;
-    height: 93vh;
-    /* background-color: rgba(206, 73, 24, 0.932); */
-    background-color: rgba(25, 25, 112, 0.884);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    position: relative;
-    background-attachment: scroll;
-    color: #fbe6c2;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    /* background-attachment: fixed; */
-}
-
-.nav-item {
-    padding-left: 10px;
-}
-
-
-.grey {
-    background-color: rgb(238, 238, 238) !important;
-}
-
-.ml-auto {
-    padding-left: 5%;
-}
-
-.hero-text-box {
-    margin-top: 50px;
-}
-
-.box {
-    min-height: 55vh;
-}
-
-.carousel-inner {
-    height: 450px;
-}
-
-.our-partners {
-    width: auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.465), rgba(0, 0, 0, 0.63)), url(/img/7.jpg);
-    background-size: cover;
-    background-position-y: center;
+    font-size:medium;
 }
 
 section {
     margin-top: 50px;
     min-height: 30vh;
 }
-
-.bg-custom {
-    background-color: rgb(33, 37, 41);
-}
-
-.card-img-top {
-    /* width:20vh;
-    height: 30vw; */
-    object-fit: cover;
-    margin: 0 auto;
-}
-
 
 /* --------------------------- NAV ---------------------------------- */
 
@@ -172,22 +91,112 @@ section {
     color: rgba(255, 255, 255, 1);
 }
 
+/* ----------------HEAD SECTION------------------------- */
 
-/* ---------------------------------------------------------------------------- */
 
-.hover {
-    transition: all 0.25s ease-in;
+.home-header {
+    padding: 0px 0 100px;
+    height: 100vh;
+    /* background-color: rgba(206, 73, 24, 0.932); */
+    background-color: rgba(25, 25, 112, 0.884);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-attachment: scroll;
+    color: #fbe6c2;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* background-attachment: fixed; */
 }
 
-.hover:hover {
-    margin-top: -10px;
-    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+
+/* ----------------------------------ID DEFIENED-------------------------------------------- */
+
+#header {
+    color: var(--BeauBlue);
 }
 
-.unit-4 a {
-    text-decoration: none;
+#compname {
+    color: #ff825c;
 }
+
+.bg-custom {
+    background-color: rgb(33, 37, 41);
+}
+
+
+.grey {
+    background-color: rgb(238, 238, 238) !important;
+}
+
+
+#hero-text-h2 {
+    font-family: gc;
+}
+
+#mainNav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ------------------------------------------------------------------------------------------*/
+
+/* ---SVG HEAD------- */
+
+.svg-home-d{
+    height: 500px;
+    width: 500px;
+}
+
+.container-compress{
+    padding: 0 20%;
+}
+
+
+/* ------------------------------------------------------------------------------------------*/
+
+
+.nav-item {
+    padding-left: 10px;
+}
+
+
+.ml-auto {
+    padding-left: 5%;
+}
+
+
+
+.box {
+    min-height: 55vh;
+}
+
+.carousel-inner {
+    height: 450px;
+}
+
+.our-partners {
+    width: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.465), rgba(0, 0, 0, 0.63)), url(/img/7.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+.card-img-top {
+    /* width:20vh;
+    height: 30vw; */
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+
+/* ------------------------------BRANDS ---------------------------------------- */
+
+
+
+
 
 .brands {
     width: 100%;
@@ -285,13 +294,26 @@ footer a {
     color: coral;
 }
 
-footer a :hover {
-    color: black;
+footer a:hover {
+    color: beige;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 input {
     height: inherit;
+}
+
+/* ------------------- HOVER _EFFECTS-------------------------- */
+
+.hover {
+    transition: all 0.25s ease-in;
+}
+
+.hover:hover {
+    margin-top: -10px;
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 

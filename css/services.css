@@ -21,23 +21,35 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: rgb(252, 252, 252);
-    line-height: 1.9;
+    /* line-height: 1.9; */
     color: #8c8c8c;
-    font-size: large;
+    font-size: medium;
     
 }
 
+header{
+    min-height: 60vh;
+}
 
 
 
 /* ------------------------------------------------------------------ */
 
-.nav-blue{
+/* .nav-blue{
     background-color: #0e0e52;
-}
+} */
 
 .bg-custom {
     background-color: rgb(33, 37, 41);
+}
+
+.navbar-nav{
+    font-size: large;
+}
+
+.logo-text{
+    font-size: xx-large;
+    font-weight: 700;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -75,16 +87,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
 .h1,
 .h2,
 .h3,
 .h4,
-.h5,
-.h6 {
+.h5{
     font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: larger;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -100,6 +109,7 @@ a:hover {
     text-decoration: none !important;
     color: var(--BeauBlue);
 }
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -172,7 +182,7 @@ h4 {
 
 /* ------------------------------------------------------------------------ */
 
-footer {
+footer{
     background-color:rgba(22, 22, 22, 0.884);
     font-family: gc;
     padding: 5vh 0;
@@ -195,16 +205,4 @@ footer a :hover {
 
 
 /* -------------------------------------------------------------------------- */
-
-@media (max-width:991.98px) {
-    .padding {
-        padding: 1.5rem
-    }
-}
-
-@media (max-width:767.98px) {
-    .padding {
-        padding: 1rem
-    }
-}
 

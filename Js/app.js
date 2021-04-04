@@ -25,18 +25,13 @@ function dropdownColor() {
 
 var mq = window.matchMedia( "(max-width: 770px)" );
 if (mq.matches) {
-    document.getElementById('hero-text-1').classList.remove('display-3');
-    document.getElementById('hero-text-1').classList.add('display-4');
+    document.getElementById('hero-text-1').classList.remove('display-2');
+    document.getElementById('hero-text-1').classList.add('display-3');
 }
 
 var mq = window.matchMedia( "(max-width: 500px)" );
 if (mq.matches) {
-    document.getElementById('hero-text-1').classList.remove('display-4');
+    document.getElementById('hero-text-1').classList.remove('display-2');
     document.getElementById('hero-text-1').classList.remove('display-3');
-    document.getElementById('hero-text-1').classList.add('h1');
-    document.getElementById('hero-text-2').classList.remove('h5');
-    document.getElementById('hero-text-2').classList.add('h6');
-
-    // document.getElementById('svg-home').classList.replace('height:300px; width:300px');
-    document.getElementById('hero-text-1').classList.remove('display-3');
+    document.getElementById('hero-text-1').classList.add('display-5');
 }
