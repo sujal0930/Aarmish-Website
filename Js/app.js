@@ -34,4 +34,6 @@ if (mq.matches) {
     document.getElementById('hero-text-1').classList.remove('display-2');
     document.getElementById('hero-text-1').classList.remove('display-3');
     document.getElementById('hero-text-1').classList.add('display-5');
+    document.getElementById('hero-text-2').classList.remove('h2');
+    document.getElementById('hero-text-2').classList.add('h5');
 }
