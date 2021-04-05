@@ -6,237 +6,251 @@
     --BeauBlue: #cce1f5;
     --Coral: #ff825c;
     --Beige: #f9f7dc;
-  }
-  
-  
+}
+
 @font-face {
     font-family: gc;
     src: url(/css/fonts/gcliff.ttf);
-  }
-  
+}
+
 
 /* --------------------------------------------------------- */
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--BeauBlue);
-  /* line-height: 1.9; */
-  color: #8c8c8c;
-  font-size: medium;
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f7ff;
+    /* line-height: 1.9; */
+    color: #8c8c8c;
+    font-size: medium;
 }
 
 
 /* -------------------------------------------------------------------------------- */
 
 .nav-blue {
-  background-color: #0e0e52;
+    background-color: #0e0e52;
 }
 
 .bg-custom {
-  background-color: rgb(33, 37, 41);
+    background-color: rgb(33, 37, 41);
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6,
-.h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 255, 255);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: large;
 }
 
-
 a {
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
-  color: var(--Coral);
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    color: var(--Coral);
 }
 
 a,
 a:hover {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
+
 
 /* ----------------------------------ID DEFINED-------------------------------------------- */
 
 .text-black {
-  color: #000;
+    color: #000;
 }
 
 .content {
-  padding: 5rem 0 0 0;
+    padding: 5rem 0 0 0;
 }
 
 .heading {
-  font-size: 2.5rem;
-  font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 
-
-.logo-text{
+.logo-text {
     font-size: xx-large;
     font-weight: 700;
 }
 
+
 /* -------------------------------------------------------------------------------- */
 
-
 .form-control {
-  border: none;
-  background: #f3f3f3;
-  font-size: 1rem;
+    border: none;
+    background: #ffffff;
+    font-size: 1rem;
 }
 
 .form-control:active,
 .form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-color: #000;
-  background: #f3f3f3;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3;
 }
 
 .col-form-label {
-  color: #000;
+    color: #000;
 }
 
 .btn,
 .form-control,
 .custom-select {
-  height: 50px;
+    height: 50px;
 }
 
 .custom-select:active,
 .custom-select:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-color: #000;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
 .btn {
-  border: none;
-  border-radius: 4px !important;
+    border: none;
+    border-radius: 4px !important;
 }
 
 .btn.btn-primary {
-  background: #000;
-  color: #fff;
-  padding: 15px 20px;
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
 }
 
 .btn:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .btn:active,
 .btn:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
 .box {
-  padding: 40px;
-  background: #fff;
-  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    background: #fff;
+    -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
 }
 
 .box h3 {
-  font-size: 14px;
-  margin-bottom: 30px;
-  text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
 label.error {
-  font-size: 12px;
-  color: red;
+    font-size: 12px;
+    color: red;
 }
 
 #message {
-  resize: vertical;
+    resize: vertical;
 }
 
 #form-message-warning,
 #form-message-success {
-  display: none;
+    display: none;
 }
 
 #form-message-warning {
-  color: #b90b0b;
+    color: #b90b0b;
 }
 
 #form-message-success {
-  color: #55a44e;
-  font-size: 18px;
-  font-weight: bold;
+    color: #55a44e;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .submitting {
-  float: left;
-  width: 100%;
-  padding: 10px 0;
-  display: none;
-  font-weight: bold;
-  font-size: 12px;
-  color: #000;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 
 footer {
-  background-color: rgba(22, 22, 22, 0.884);
-  font-family: gc;
-  padding: 5vh 0;
+    background-color: rgba(22, 22, 22, 0.884);
+    font-family: gc;
+    padding: 5vh 0;
 }
 
 footer a {
-  color: coral;
+    color: coral;
 }
 
 footer a:hover {
-  color: var(--Beige);
-  text-decoration: none;
+    color: var(--Beige);
+    text-decoration: none;
 }
 
 input {
-  height: inherit;
+    height: inherit;
 }
 
-
-p{
+p {
     padding: 0;
 }
+
 
 /* -----------------------------FONT AREA-------------------------------------- */
 
 @media screen and (min-width: 601px) {
-  #hero-svg {
-    height: fit-content;
-  }
+    #hero-svg {
+        height: fit-content;
+    }
 }
 
+
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
 @media screen and (max-width: 600px) {
-  /* *:not(h1,h2,h3,h4,h5,h6){
+    /* *:not(h1,h2,h3,h4,h5,h6){
       font-size: 20px;
     } */
-
-  #hero-svg {
-    height: fit-content;
-  }
-  .form-control {
-    font-size: large;
-  }
+    #hero-svg {
+        height: fit-content;
+    }
+    .form-control {
+        font-size: large;
+    }
 }

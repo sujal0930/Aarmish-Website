@@ -9,32 +9,36 @@
     src: url(/css/fonts/gcliff.ttf);
 }
 
+
 /* -----------------------------FONT AREA-------------------------------------- */
+
 
 /* @media screen and (max-width: 601px) {
     body{
         font-size: small;
     }
   } */
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  /* @media screen and (max-width: 600px) {
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+
+/* @media screen and (max-width: 600px) {
     
   } */
 
-  a{
-      text-decoration: none;
-  }
-  
-  .navbar-nav{
-      font-size: large;
-  }
+a {
+    text-decoration: none;
+}
 
-  .logo-text{
+.navbar-nav {
+    font-size: large;
+}
+
+.logo-text {
     font-size: xx-large;
     font-weight: 800;
 }
-
 
 
 /* ----------------------- COLOR PALLETE-------------------------------------- */
@@ -47,18 +51,20 @@
     --Beige: #f9f7dc;
 }
 
+
 /* ---------------------------------------HTML TAGS-------------------------- */
 
 html {
     scroll-behavior: smooth;
     border-radius: 0;
-    font-size:medium;
+    font-size: medium;
 }
 
 section {
     margin-top: 50px;
     min-height: 30vh;
 }
+
 
 /* --------------------------- NAV ---------------------------------- */
 
@@ -91,8 +97,8 @@ section {
     color: rgba(255, 255, 255, 1);
 }
 
-/* ----------------HEAD SECTION------------------------- */
 
+/* ----------------HEAD SECTION------------------------- */
 
 .home-header {
     padding: 0px 0 100px;
@@ -124,11 +130,9 @@ section {
     background-color: rgb(33, 37, 41);
 }
 
-
 .grey {
     background-color: rgb(238, 238, 238) !important;
 }
-
 
 #hero-text-h2 {
     font-family: gc;
@@ -141,31 +145,28 @@ section {
 
 /* ------------------------------------------------------------------------------------------*/
 
+
 /* ---SVG HEAD------- */
 
-.svg-home-d{
+.svg-home-d {
     height: 500px;
     width: 500px;
 }
 
-.container-compress{
+.container-compress {
     padding: 0 20%;
 }
 
 
 /* ------------------------------------------------------------------------------------------*/
 
-
 .nav-item {
     padding-left: 10px;
 }
 
-
 .ml-auto {
     padding-left: 5%;
 }
-
-
 
 .box {
     min-height: 55vh;
@@ -182,7 +183,6 @@ section {
     background-position-y: center;
 }
 
-
 .card-img-top {
     /* width:20vh;
     height: 30vw; */
@@ -191,12 +191,7 @@ section {
 }
 
 
-
 /* ------------------------------BRANDS ---------------------------------------- */
-
-
-
-
 
 .brands {
     width: 100%;
@@ -285,7 +280,7 @@ section {
 /* ----------------------------Footer------------------------------*/
 
 footer {
-    background-color:rgba(22, 22, 22, 0.884);
+    background-color: rgba(22, 22, 22, 0.884);
     font-family: gc;
     padding: 5vh 0;
 }
@@ -304,6 +299,7 @@ input {
     height: inherit;
 }
 
+
 /* ------------------- HOVER _EFFECTS-------------------------- */
 
 .hover {
@@ -320,34 +316,22 @@ input {
 /* ------------------MEDIA QUERIES------------------------- */
 
 @media screen and (max-width: 500px) {
-    .carousel-inner{
+    .carousel-inner {
         height: fit-content;
     }
-
-    .home-header{
+    .home-header {
         height: max-content;
     }
-
-    .logo-text{
+    .logo-text {
         font-size: x-large;
     }
-
-    .hero-text-box{
+    .hero-text-box {
         margin-top: 0;
     }
+}
 
-
-
-  }
-
-
-  
 @media (max-width: 600px) {
- 
-    .home-header{
+    .home-header {
         height: max-content;
     }
-
-
-  }
-
+}

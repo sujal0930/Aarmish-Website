@@ -3,6 +3,10 @@
     src: url(/css/fonts/gcliff.ttf);
 }
 
+@font-face {
+    font-family: fa;
+    src: url(/css/fonts/TCCM____.TTF);
+}
 
 
 /* ----------------------- COLOR PALLETE-------------------------------------- */
@@ -24,16 +28,15 @@ body {
     /* line-height: 1.9; */
     color: #8c8c8c;
     font-size: medium;
-    
 }
 
-header{
+header {
     min-height: 60vh;
 }
 
 
-
 /* ------------------------------------------------------------------ */
+
 
 /* .nav-blue{
     background-color: #0e0e52;
@@ -43,14 +46,15 @@ header{
     background-color: rgb(33, 37, 41);
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: large;
 }
 
-.logo-text{
+.logo-text {
     font-size: xx-large;
     font-weight: 700;
 }
+
 
 /* ------------------------------------------------------------------------ */
 
@@ -91,11 +95,20 @@ h5,
 .h2,
 .h3,
 .h4,
-.h5{
+.h5 {
     font-family: "Roboto", sans-serif;
     color: rgb(0, 0, 0);
 }
 
+.service {
+    color: beige;
+    font-family: gc;
+}
+
+#head2 {
+    font-size: xx-large;
+    font-family: sans-serif;
+}
 
 a {
     -webkit-transition: .3s all ease;
@@ -112,7 +125,6 @@ a:hover {
 
 
 /* -------------------------------------------------------------------------- */
-
 
 .padding {
     padding: 5rem
@@ -147,8 +159,6 @@ a:hover {
     height: 300px !important;
 }
 
-
-
 h4 {
     line-height: .2 !important
 }
@@ -180,10 +190,11 @@ h4 {
     margin: 10px
 }
 
+
 /* ------------------------------------------------------------------------ */
 
-footer{
-    background-color:rgba(22, 22, 22, 0.884);
+footer {
+    background-color: rgba(22, 22, 22, 0.884);
     font-family: gc;
     padding: 5vh 0;
     color: var(--BeauBlue);
@@ -202,7 +213,4 @@ footer a :hover {
 /* ------------------------------------------------------------------------- */
 
 
-
-
 /* -------------------------------------------------------------------------- */
-
