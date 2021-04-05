@@ -115,6 +115,42 @@ section {
     /* background-attachment: fixed; */
 }
 
+.middle{
+    position: relative;
+}
+
+.mouse{
+    width: 25px;
+    height: 45px;
+    border: 2px solid;
+    border-radius: 60px;
+}
+
+.dot{
+    content: "";
+    width: 5.2px;
+    height: 5.2px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: mouse 2s infinite;
+}
+
+@keyframes mouse {
+    from{
+        opacity: 1;
+        top: 5px;
+    }
+    to{
+        opacity: 0;
+        top: 30px;
+    }
+}
+
+
 
 /* ----------------------------------ID DEFIENED-------------------------------------------- */
 
